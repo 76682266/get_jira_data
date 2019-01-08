@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import pymysql
-from config import jira_user,jira_passwd
+from config import jira_url,jira_user,jira_passwd
 #provide ways to get sql or write sql
 #use sql insert update exp↓
 # INSERT INTO `量化数据` ( `姓名`, `年月日`, `1.a` )
@@ -10,7 +10,7 @@ from config import jira_user,jira_passwd
 # VALUES
 # 	( `1.a` )
 def get_members():
-    connection = pymysql.connect(host='review.finedevelop.com',
+    connection = pymysql.connect(host=jira_url,
                                  user=jira_user,
                                  password=jira_passwd,
                                  db='TestGroup',
@@ -35,7 +35,7 @@ def get_members():
     finally:
         connection.close()
 def get_result(sql_str):
-    #use you own config
+    #use you own config.py
     connection = pymysql.connect(host='review.finedevelop.com',
                                  user=jira_user,
                                  password=jira_passwd,

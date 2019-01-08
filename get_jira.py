@@ -2,11 +2,11 @@
 import json
 import time
 from jira import JIRA
-from config import user,passwd
+from config import url,user,passwd
 from sql_handle import get_result,write_string
 #from ability import single_ab_201811_201812,team_ab_201811_201812
-jira = JIRA('http://www.finedevelop.com:2016', basic_auth=(user, passwd))
-#use you own config
+jira = JIRA(url, basic_auth=(user, passwd))
+#use you own config.py
 #demo : result=jira.search_issues(jql3,json_result=True)
 # print (type(result)) == dict
 # print(result['total'])  #calc num
