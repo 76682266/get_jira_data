@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import pymysql
-from config.sc import jira_user,jira_passwd
+from config import jira_user,jira_passwd
 #provide ways to get sql or write sql
 #use sql insert update exp↓
 # INSERT INTO `量化数据` ( `姓名`, `年月日`, `1.a` )
