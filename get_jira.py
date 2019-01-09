@@ -74,12 +74,13 @@ def get_result(month="2018-11-01",person=[]):
                 else:
                     ab[i.rsplit('_')[-1]]=''
                 time.sleep(0.5)
-        members_dict[key][month] = ab
-        write_string(key, month, ab)
-        print('%s:属于%s,职位为%s,%s的能力值为%s' %(key,value['team'],value['job'],month,str(ab)))
+        if len(ab):
+            members_dict[key][month] = ab
+            write_string(key, month, ab)
+            print('%s:属于%s,职位为%s,%s的能力值为%s' %(key,value['team'],value['job'],month,str(ab)))
     #print(type(members_dict))
     #print(members_dict)
 if __name__ == '__main__':
-    get_result(person=['Fiona'])
+    get_result()
     #jql=single_ab_201811_201812['1.f']+'Abbie'
     #print(get_ab_common(jql))
