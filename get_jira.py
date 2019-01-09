@@ -56,7 +56,7 @@ def get_result(month="2018-11-01"):
             if len(ab_jql):
                 ab[ab_name]=get_ab_common((ab_jql+'"'+key+'"'))
             else:
-                ab[ab_name]='未取数'
+                ab[ab_name]=''
             time.sleep(0.5)
 
         for i in team_config[value['team']]:
@@ -64,7 +64,7 @@ def get_result(month="2018-11-01"):
                 if len(team[i]):
                     ab[i.rsplit('_')[-1]]=get_ab_common(team[i])
                 else:
-                    ab[i.rsplit('_')[-1]]='未取数'
+                    ab[i.rsplit('_')[-1]]=''
                 time.sleep(0.5)
         members_dict[key][month] = ab
         write_string(key, month, ab)

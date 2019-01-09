@@ -3,6 +3,10 @@
     "team": "BI-直连",
     "job": "组员"
   },
+  "Abby": {
+    "team": "平台",
+    "job": "组员"
+  },
   "Alisa": {
     "team": "图表",
     "job": "组员"
@@ -64,7 +68,7 @@
     "job": "组员"
   },
   "jiangfeng": {
-    "team": "BI-移动端",
+    "team": "BI-直连",
     "job": "组员"
   },
   "Jiekai.Bi": {
@@ -92,7 +96,7 @@
     "job": "组长"
   },
   "Lipei": {
-    "team": "BI-移动端",
+    "team": "图表",
     "job": "组长"
   },
   "liucheng": {
@@ -106,6 +110,10 @@
   "miley": {
     "team": "BI-移动端",
     "job": "组长"
+  },
+  "Min": {
+    "team": "BI-移动端",
+    "job": "组员"
   },
   "Neo.Zhu": {
     "team": "BI-cube",
@@ -143,12 +151,24 @@
     "team": "BI-cube",
     "job": "组员"
   },
+  "Sissi.Zhao": {
+    "team": "BI-移动端",
+    "job": "组员"
+  },
   "spruce": {
     "team": "测试开发",
     "job": "测开组员"
   },
   "Syrena": {
     "team": "FR-移动端",
+    "job": "组员"
+  },
+  "Wangshuyan": {
+    "team": "BI-直连",
+    "job": "组员"
+  },
+  "Wuxinyu": {
+    "team": "BI-数据挖掘",
     "job": "组员"
   },
   "xiaoli.Jin": {

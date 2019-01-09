@@ -7,7 +7,8 @@ read https://kms.finedevelop.com/pages/viewpage.action?pageId=46744701
 1.b 被退回的开发测试任务
 1.f 快速任务质量情况
 2.e 日志情况，可以认为是个执行力，需要结合ellen的取数来算,暂且先不算了
-3.a 提交的已解决的bug
+3.a 提交的已解决的bug,必须是解决时间在这个时间段内的
+3.b 周期内创建的开发测试BUG,不需要算解决
 3.d 文档分享分数,需要人工录入
 4.a 执行扣分,需要人工录入
 1.g 累计提交的已解决的开发测试任务
@@ -42,6 +43,7 @@ single_ab_201811_201812={
     '1.f': '',
     '2.e': '',
     '3.a': 'project in (报表, 决策平台, 图表开发, BI, MOBILE) AND issuetype = 开发测试任务 AND status = 已解决 AND (resolved >= 2018-11-01 AND resolved <= 2018-12-31) AND reporter = ',
+    '3.b': 'project in (报表, 决策平台, 图表开发, BI, MOBILE) AND issuetype = 开发测试任务 AND (created >= 2018-11-01 AND created <= 2018-12-31) AND reporter = ',
     '1.g': 'project in (报表, 决策平台, 图表开发, BI, MOBILE) AND issuetype = 开发测试任务 AND status = 已解决 AND reporter = ',
     '1.h':'project in (BI, REPORT, DEC, CHART, MOBILE) AND issuetype = 开发测试任务 AND reporter = '
 
