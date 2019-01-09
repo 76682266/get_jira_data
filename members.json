@@ -44,11 +44,11 @@
     "job": "测开组员"
   },
   "Doris": {
-    "team": "BI-移动端",
+    "team": "图表",
     "job": "组员"
   },
   "Fiona": {
-    "team": "FR-移动端",
+    "team": "FR-设计器",
     "job": "组员"
   },
   "Gaojing": {
@@ -84,7 +84,7 @@
     "job": "测开组员"
   },
   "katy": {
-    "team": "BI-移动端",
+    "team": "BI-数据挖掘",
     "job": "组员"
   },
   "Lena": {
@@ -116,11 +116,7 @@
     "job": "组员"
   },
   "Neo.Zhu": {
-    "team": "BI-cube",
-    "job": "组员"
-  },
-  "nico.xing": {
-    "team": "FR-移动端",
+    "team": "平台",
     "job": "组员"
   },
   "Niujialing": {

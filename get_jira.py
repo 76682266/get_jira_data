@@ -40,11 +40,19 @@ def get_ab_common(sql):
 # print(miley.get_ab_common(single_ab_201811_201812['ab5']+miley.name))
 # print(miley.get_ab_common(team_ab_201811_201812['chart_ab1']))
 
-def get_result(month="2018-11-01"):
+def get_result(month="2018-11-01",person=[]):
     #get single ability and team ability
+    exact_dict={}
     from ability import single_ab_201811_201812 as single,team_config,team_ab_201811_201812 as team,judge_ab_201811_201812 as judge  #single is a dict
     with open('members.json', 'r') as members_json:
         members_dict = json.load(members_json) #a dict
+        if len(person):
+            #这里指定了要获取的人的字典
+            for x in person:
+                exact_dict[x]=members_dict[x]
+            members_dict=exact_dict
+            #print(members_dict)
+
     for key,value in members_dict.items():
         #value is also a dict,key is a str
         ab={} #to store the ability as a dict
@@ -72,6 +80,6 @@ def get_result(month="2018-11-01"):
     #print(type(members_dict))
     #print(members_dict)
 if __name__ == '__main__':
-    get_result()
+    get_result(person=['Fiona'])
     #jql=single_ab_201811_201812['1.f']+'Abbie'
     #print(get_ab_common(jql))
