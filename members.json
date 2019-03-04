@@ -15,6 +15,10 @@
     "team": "图表",
     "job": "组员"
   },
+    "Amber": {
+    "team": "图表",
+    "job": "组员"
+  },
   "Angle": {
     "team": "FR-设计器",
     "job": "组员"
@@ -85,6 +89,10 @@
   },
   "katy": {
     "team": "BI-数据挖掘",
+    "job": "组员"
+  },
+    "Katniss": {
+    "team": "BI-cube",
     "job": "组员"
   },
   "Lena": {
@@ -181,6 +189,10 @@
   },
   "zhaoxingpei": {
     "team": "BI-移动端",
+    "job": "组员"
+  },
+    "ZhangYinga": {
+    "team": "测试开发",
     "job": "组员"
   },
   "Zoey": {
