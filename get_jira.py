@@ -1,4 +1,4 @@
-# coding:utf=8
+# -*- coding: utf-8 -*-
 import json
 import time
 from jira import JIRA
@@ -47,7 +47,7 @@ def get_result(month="2018-11-01",person=[]):
         from ability import single_ab_201811_201812 as single,team_config,team_ab_201811_201812 as team,judge_ab_201811_201812 as judge  #single is a dict
     if month=="2019-01-01":
         from ability import single_ab_201901_201902 as single,team_config,team_ab_201901_201902 as team,judge_ab_201901_201902 as judge  #single is a dict
-    with open('members.json', 'r') as members_json:
+    with open('members.json', 'r',encoding='UTF-8') as members_json:
         members_dict = json.load(members_json) #a dict
         if len(person):
             #这里指定了要获取的人的字典
