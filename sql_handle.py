@@ -55,7 +55,7 @@ def get_result(sql_str):
         connection.close()
 
 def write_string(name,datetime,value_dict):
-    connection = pymysql.connect(host='review.finedevelop.com',
+    connection = pymysql.connect(host=jira_url,
                                  user=jira_user,
                                  password=jira_passwd,
                                  db='TestGroup',
