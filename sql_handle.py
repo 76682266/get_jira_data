@@ -36,7 +36,7 @@ def get_members():
         connection.close()
 def get_result(sql_str):
     #use you own config.py
-    connection = pymysql.connect(host='review.finedevelop.com',
+    connection = pymysql.connect(host=jira_url,
                                  user=jira_user,
                                  password=jira_passwd,
                                  db='TestGroup',
