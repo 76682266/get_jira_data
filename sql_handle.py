@@ -18,7 +18,7 @@ def get_members():
                                  cursorclass=pymysql.cursors.DictCursor)
     try:
         with connection.cursor() as cursor:
-            sql_str="SELECT `产品模块` AS team,GROUP_CONCAT(DISTINCT `姓名`) AS name,`角色` AS job FROM `月评表_seven_评价为数字` GROUP BY `姓名`;"
+            sql_str="SELECT `产品线标签` AS team,GROUP_CONCAT(DISTINCT `user_username`) AS name,`定位` AS job FROM `人员信息表格` GROUP BY `user_username`;"
             #print (sql_str)
             cursor.execute(sql_str)
             result = cursor.fetchall()
