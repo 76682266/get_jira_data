@@ -3,7 +3,7 @@ import json
 import time
 from jira import JIRA
 from config import url,user,passwd
-from sql_handle import get_result,write_string
+from sql_handle import get_sql_result,write_string
 #from ability import single_ab_201811_201812,team_ab_201811_201812
 jira = JIRA(url, basic_auth=(user, passwd))
 #use you own config.py
@@ -47,6 +47,8 @@ def get_result(month="2018-11-01",person=[]):
         from ability import single_ab_201811_201812 as single,team_config,team_ab_201811_201812 as team,judge_ab_201811_201812 as judge  #single is a dict
     if month=="2019-01-01":
         from ability import single_ab_201901_201902 as single,team_config,team_ab_201901_201902 as team,judge_ab_201901_201902 as judge  #single is a dict
+    if month=="2019-03-01":
+        from ability import single_ab_201903_201904 as single,team_config,team_ab_201903_201904 as team,judge_ab_201903_201904 as judge  #single is a dict
     with open('members.json', 'r',encoding='UTF-8') as members_json:
         members_dict = json.load(members_json) #a dict
         if len(person):
@@ -84,6 +86,6 @@ def get_result(month="2018-11-01",person=[]):
     #print(type(members_dict))
     #print(members_dict)
 if __name__ == '__main__':
-    get_result(month="2019-01-01")
+    get_result(month="2019-03-01")
     #jql=single_ab_201811_201812['1.f']+'Abbie'
     #print(get_ab_common(jql))

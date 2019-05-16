@@ -34,7 +34,7 @@ def get_members():
             #return members
     finally:
         connection.close()
-def get_result(sql_str):
+def get_sql_result(sql_str):
     #use you own config.py
     connection = pymysql.connect(host=jira_url,
                                  user=jira_user,
