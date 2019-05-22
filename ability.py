@@ -270,7 +270,7 @@ single_ab_201903_201904={
     '1.b':'project in (BI, DEC, CHART, REPORT, MOBILE) AND issuetype = 开发测试任务 AND status in (创建者确认, 被否决) AND created >= 2019-03-01 AND created <= 2019-04-30 AND 研发退回原因 in (不是BUG) AND reporter = ',
     '1.f': '',
     '2.e': '',
-    '3.a': 'project in (报表, 决策平台, 图表开发, BI, MOBILE) AND issuetype = 开发测试任务 AND status = 已解决 AND (resolved >= 2019-03-01 AND resolved <= 2019-04-30) AND reporter = ',
+    '3.a': 'project in (报表, 决策平台, 图表开发, BI, MOBILE) AND issuetype = 开发测试任务 AND status in (研发组长验收,已解决) AND (resolved >= 2019-03-01 AND resolved <= 2019-04-30) AND reporter = ',
     '3.b': 'project in (报表, 决策平台, 图表开发, BI, MOBILE) AND issuetype = 开发测试任务 AND (created >= 2019-03-01 AND created <= 2019-04-30) AND reporter = ',
     '1.g': 'project in (报表, 决策平台, 图表开发, BI, MOBILE) AND issuetype = 开发测试任务 AND status = 已解决 AND reporter = ',
     '1.h':'project in (BI, REPORT, DEC, CHART, MOBILE) AND issuetype = 开发测试任务 AND reporter = '
