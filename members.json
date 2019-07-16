@@ -39,12 +39,12 @@
     "team": "MOBILE",
     "job": "组员"
   },
-  "Chaofan.Sun": {
-    "team": "REPORT",
-    "job": "组员"
-  },
   "Chenyali": {
     "team": "MOBILE",
+    "job": "组员"
+  },
+  "Clara": {
+    "team": "DEC",
     "job": "组员"
   },
   "connie": {
@@ -71,8 +71,20 @@
     "team": "BI",
     "job": "组员"
   },
+  "Greer": {
+    "team": "REPORT",
+    "job": "组员"
+  },
   "Haiyang.Zhou": {
     "team": "DEC",
+    "job": "组员"
+  },
+  "Hedy": {
+    "team": "MOBILE",
+    "job": "组员"
+  },
+  "Jackie.Lu": {
+    "team": "SDET",
     "job": "组员"
   },
   "jeo": {
@@ -109,7 +121,7 @@
   },
   "Lianbin.tu": {
     "team": "MOBILE",
-    "job": "组员"
+    "job": "组长"
   },
   "Lipei": {
     "team": "CHART",
@@ -137,6 +149,10 @@
   },
   "Min": {
     "team": "MOBILE",
+    "job": "组员"
+  },
+  "Minna": {
+    "team": "BI",
     "job": "组员"
   },
   "Niujialing": {
@@ -167,9 +183,17 @@
     "team": "BI",
     "job": "组员"
   },
+  "Popeye": {
+    "team": "SDET",
+    "job": "组员"
+  },
   "Qingzhi.Bao": {
     "team": "BI",
     "job": "组员"
+  },
+  "Seven": {
+    "team": "BI",
+    "job": "组长"
   },
   "Sissi.Zhao": {
     "team": "MOBILE",
@@ -197,10 +221,6 @@
   },
   "Wuxinyu": {
     "team": "BI",
-    "job": "组员"
-  },
-  "xiaoli.Jin": {
-    "team": "MOBILE",
     "job": "组员"
   },
   "Yina.Du": {
