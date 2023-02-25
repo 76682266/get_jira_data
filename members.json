@@ -1,5 +1,4 @@
-//形式类似，字典存放，用户名，团队，角色
-{
+{"_comment1": 形式类似，用户名key，下面的team团队，job角色为values，
   "Seven": {
     "team": "BI",
     "job": "组长"
